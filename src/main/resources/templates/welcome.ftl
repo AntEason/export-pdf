@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Title</title>
+    <style>
+        body{
+            font-family:SimHei;
+        }
+        .blue{
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+<div class="blue">
+    你好，${name}
+</div>
+<div>
+    时间，${time?date}
+</div>
+</body>
+</html>
