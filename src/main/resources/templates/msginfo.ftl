@@ -2,22 +2,14 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8"/>
-    <title>Title</title>
-    <style>
-        @page {
-            /* 页面大小：示例中设置为A4纸的大小 */
-            size: 210mm 297mm;
-            margin: 15mm 15mm 15mm 15mm;
-        }
-        .blue{
-            background: aquamarine;
-        }
-        body{ width: 178mm; font-family:SimHei; font-size: 18px; }
+    <title>MsgInfo</title>
+    <style type="text/css">
+        body{ width: 100%; }
         .title{
             background-color: aquamarine;
         }
         table{
-            width: 100%;
+            width: auto;
             border:1px solid #d9d9d9;
             border-collapse:collapse;
         }
@@ -27,7 +19,6 @@
     </style>
 </head>
 <body>
-<div class="blue" style="background-color:aquamarine;">ttt</div>
 <table>
     <tbody>
     <tr>
